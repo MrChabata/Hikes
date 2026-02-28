@@ -1,14 +1,11 @@
-header{
-    display: flex;
-    justify-content: space-between;
-    width: 100vw;
-    height: 100vh;
+.top_page{
+    
+    width: 1920px;
+    height: 1080px;
     background-image: linear-gradient(180deg, #0a3e0283, rgba(255, 255, 255, 0)), url("img/scenery.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    padding-left: 112px;
-    padding-right: 112px;
-    padding-top: 24px;
+    
     backdrop-filter: blur(5);
 }
 
@@ -49,4 +46,321 @@ header{
     display: flex;
     justify-content: center;
     text-align: center;
+}
+
+.star{
+    width: 20px;
+    height: 20px;
+
+}
+
+.stars{
+    display: flex;
+    flex-direction: row;
+}
+
+.search{
+    width: 1920px;
+    height: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.headd{
+    display: flex;
+    justify-content: space-between;
+    width: 1920px;
+    height: 80px;
+    padding-left: 112px;
+    padding-right: 112px;
+    padding-top: 24px;
+}
+
+h3{
+    font-size: 90px;
+    color: white;
+    width: 734px;
+    height: 200px;
+    text-align: center;
+}
+
+.searchbar{
+    width: 563px;
+    height: 44px;
+    border-radius: 50px;
+    background-color: white;
+    margin-top: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.searchbtn{
+    width: 91px;
+    height: 31px;
+    background-color: black;
+    border-radius: 50px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchin{
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+}
+   
+.checks{
+    width: 600px;
+    height: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.check{
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    text-align: center;
+}
+
+.info{
+    width: 1920px;
+    height: 150px;
+    padding-left: 111px;
+    padding-right: 111px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(5px);
+}
+
+.small_info{
+    width: 240px;
+    height: 79px;
+}
+
+h4{
+    font-size: 18px;
+    color: white;
+}
+
+.title{
+    width: 1650px;
+    height: 100px;
+    margin-left: 110px;
+    color: yellow;
+    font-size: 20px;
+}
+
+
+.big_title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    color: white;
+    font-size: 40px;
+}
+
+.trending_hikes{
+    background-color: rgb(20, 20, 20);
+    padding-top: 120px;
+    width: 1920px;
+    height: 1750px;
+}
+
+.picture{
+    width: 475px;
+    height: 450px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding-top: 390px;
+}
+
+.picture img{
+    width: 32px;
+    height: 32px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.pictures{
+    width: 1920px;
+    height: 1374px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.account_creation{
+    width: 1920px;
+    height: 900px;
+    background-color: rgb(41, 40, 40);
+    padding-top: 96px;
+    display: flex;
+    flex-direction: row;
+}
+
+.explore{
+    color: white;
+    width: 960px;
+    height: 670px;
+    padding: 96px;
+    padding-left: 130px;
+    padding-right: 46px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.roww{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 20px;
+}
+
+.accountbtn{
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pics{
+    width: 900px;
+    height: 710px;
+    /* padding-right: 120px; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pic {
+    margin-left: 10px;
+    width: 260px;
+    height: 340px;
+    display: flex;
+    justify-content: center;
+    padding-top: 300px;
+    background-size: cover;
+}
+
+.pic p{
+    color: white;
+    font-size: 22px;
+    text-shadow: 1px 1px black;
+}
+
+.app_page{
+    width: 1920px;
+    height: 1200px;
+    background-color: rgb(20, 20, 20);
+    padding-top: 100px;
+    padding: 100px;
+}
+
+.hiking_adventures{
+    color: white;
+    width: 900px;
+    height: 670px;
+    padding: 96px;
+    padding-left: 130px;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(41, 40, 40);
+}
+
+.badges{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+
+.phone_picture{
+    width: 850px;
+    height: 670px;
+    background-color: rgb(41, 40, 40);
+    background-image: url(img/Content1.png);
+    /* background-size: cover; */
+}
+.overall{
+    display: flex;
+}
+
+.lower_info{
+    width: 1720px;
+    height: 150px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lower_small_info{
+    width: 400px;
+    height: 79px;
+}
+
+.lower_small_info h4{
+    font-size: 70px;
+    color: yellow;
+}    
+
+.lower_small_info h5{
+    font-size: 22px;
+    color: white;
+}    
+
+.lower_small_info p{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.781);
+}    
+
+footer{
+    width: 1920px;
+    height: 120px;
+    background-color: rgb(41, 40, 40);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 100px;
+}
+
+.syntask2{
+    width: 91px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    
+}
+
+.syntask2 p{
+    color: white;
+    font-size: 20px;
+}
+
+footer p{
+    color: white;
+    font-size: 20px;
 }
